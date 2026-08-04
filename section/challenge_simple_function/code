@@ -1,0 +1,9 @@
+// Write your function below this line
+function messageFunc() {
+    let message = "This is a message from the function"
+    return message
+}
+
+
+// Testing
+console.log(messageFunc());
