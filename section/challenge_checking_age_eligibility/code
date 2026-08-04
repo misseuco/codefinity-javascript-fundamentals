@@ -1,0 +1,17 @@
+function checkDrivingEligibility() {
+  // Write your code below this line
+
+  let age = 18;
+    if (age >= 18) {
+      return true;
+    } else {
+        return false;
+    }
+
+  // Write your code above this line
+}
+
+console.log(
+  "The user is old enough to drive:",
+  checkDrivingEligibility()
+);
