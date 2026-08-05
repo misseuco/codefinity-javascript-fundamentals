@@ -1,9 +1,11 @@
-function getCarSpeed() {
-  // Write your code below this line
+// Write your function below this line
+function calcSpeed() {
+  let distance = 1000;
+  let timeTaken = 120;
 
-  return 100/5;
+  let speed = distance/timeTaken;
 
-  // Write your code above this line
+  return speed;
 }
 
-console.log(getCarSpeed());
+console.log(calcSpeed());
